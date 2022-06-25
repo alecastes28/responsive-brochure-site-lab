@@ -1,0 +1,149 @@
+html, body {
+    font-family: sans-serif;
+    margin: 0 auto;
+	padding: 0;
+	border: 0;
+}
+body {
+    background-color: rgba(125, 191, 224, 0.2);
+}
+p {
+    color: #023047;
+    opacity: 0.5;
+    line-height: 22px;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    background-color: white;
+}
+
+/* Description */
+
+.description {
+    display: flex;
+}
+.description article {
+    flex: 1;
+    margin: 0 20px 20px 20px;
+}
+.description article:last-child {
+    text-align: center;
+}
+.description .logo {
+    border-radius: 50%;
+    height: 150px;
+}
+.description header h1 {
+    text-transform: uppercase;
+    color: #023047;
+    opacity: 50%;
+}
+.description .about h2 {
+    background-color: #219ebc;
+    margin-top: 0%;
+    border-radius: 0 0 20px 20px;
+    padding: 35px 113px 16px 17px;;
+    text-align: left;
+    color: white;
+}
+.description .breed h2 {
+    color: #219ebc;
+    font-size: 20px;
+}
+
+/* Gallery */
+
+.gallery {
+    display: flex;
+}
+.gallery figure {
+    flex: 1;
+    min-height: 300px;
+    margin: 0;
+}
+.gallery figure {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.gallery figure:nth-child(1) {
+    background-image: url(/responsive-brochure-site-lab/images/eliot1.jpeg);
+}
+.gallery figure:nth-child(2) {
+    background-image: url(/responsive-brochure-site-lab/images/eliot2.jpeg);
+}
+.gallery figure:nth-child(3) {
+    background-image: url(/responsive-brochure-site-lab/images/eliot3.jpeg);
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+}
+footer article {
+    flex: 1;
+    margin: 0 20px 20px 20px;
+}
+footer article.info ul li {
+    margin-bottom: 10px;
+}
+footer .more h2 {
+    color: #219ebc;
+    font-size: 20px;
+}
+footer aside {
+    flex: 1;
+    margin: 0 0 20px 20px;
+    text-align: right;
+    text-align: -webkit-right;
+    text-align: -moz-right;
+}
+footer aside h3 {
+    text-align: left;
+    color: white;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: right;
+    line-height: 25px;
+}
+footer aside h3 span {
+    font-weight: bold;
+}
+footer aside .slogan {
+    background-color: #219ebc;
+    border-radius: 20px 0 0 20px; 
+    padding:  10px 30px;
+    max-width: 270px;
+    margin-right: 0px;
+    margin-top: 19px;
+}
+footer aside p {
+    text-align: center;
+    text-align: -webkit-center;
+    text-align: -moz-center;
+}
+footer .info ul {
+    list-style-type: none;
+}
+footer .info ul i {
+    font-size: 25px;
+}
+footer .info ul i::before {
+    color: #219ebc;
+}
+footer .info li {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+footer .info li .icon {
+    width: 42px;
+    text-align: center;
+}
+footer .info li span {
+    color: #023047;
+    opacity: 0.5;
+}
